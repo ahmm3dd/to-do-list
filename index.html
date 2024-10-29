@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #111a24;
+        }
+        input{
+            height: 50px;
+            width: 50%;
+            margin: 20px;
+            border-radius: 10px;
+            background: transparent;
+            color: white;
+        }
+        
+        button{
+            height: 40px;
+            width: 10%;
+            border: 1px solid black;
+            background: #a5a23f;
+            color: white;
+            
+        }
+        #div{
+            margin: 50px;
+            border: 1px solid black; 
+            padding: 30px;
+            background-color: #a5a23f;
+            color: white;
+            border-radius: 20px;
+           
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 70px;
+            color: #a5a23f;
+    
+        }
+    </style>
+<center>
+<input id="input" type="text" placeholder="enter your task">
+
+<button onclick="handleclick()">add</button>
+<button style="margin: 10px; border: 1px solid black;   height: 40px; width: 10%; max-width: 150px;" onclick="dlt()">Delete a Task</button>
+</center>
+</div>
+<div id="div">
+
+</div>
+
+
+<h1 class="box">List the Task
+     you  wanna do</h1>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
